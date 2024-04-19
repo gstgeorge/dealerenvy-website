@@ -26,6 +26,10 @@ author: Dealer Solutions Corp
 #   Path to file (png/ico) to use as site's favicon
 favicon: /assets/images/ds_logo_square.png
 
+# Accent Color
+#   Color used for navbar, footer, buttons, etc.
+accent-color: "#004d99"
+
 # Google Analytics Tag
 gtag: G-R7H32259Z2
 
@@ -71,17 +75,6 @@ navbar-links:
   #   - Link Label: "https://Link.com/"  
 
 
-#####################
-#  Color Overrides  #
-#####################
-
-page-color: "#f3f3f3"         # Page background color
-txt-color:                    # Text color
-link-color:                   # Link color
-accent-color: "#004d99"       # Background color used in navbar, footer, buttons, etc.
-accent-txt-color: "#f3f3f3"   # Text color used in navbar, footer, buttons, etc.
-
-
 #######################
 #  Sitewide CSS & JS  #
 #######################
@@ -90,6 +83,9 @@ css:
   - /assets/css/main.css
 js:
   - /assets/js/main.js
+
+sass: 
+  sass_dir: /assets/css
 
 
 #########################

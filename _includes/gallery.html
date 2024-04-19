@@ -5,7 +5,7 @@
         <div class="col-md-6 col-xl-4 col-xxl-3 mb-5">
             {% if image.title %}<p>{{ image.title }}</p>{% endif %}
             <a {% unless page.lightbox==true %}{% if image.link %}href="{{ image.link }}"{% endif %}{% endunless %}>
-                <img src="{{ image.path }}" alt="{{ image.title }}" class="gallery-item {% if include.borderhover==true %}border border-hover border-3{% endif %} img-fluid shadow-lg {% if include.rounded==true %}rounded-4{% endif %} centered">
+                <img src="{{ image.path }}" alt="{{ image.title }}" class="gallery-item {% if include.borderhover==true %}border border-hover border-primary border-3{% endif %} img-fluid shadow-lg {% if include.rounded==true %}rounded-4{% endif %} centered">
             </a>
         </div>
     {% endfor %}

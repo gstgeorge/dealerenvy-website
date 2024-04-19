@@ -2,13 +2,25 @@
 layout: null
 ---
 
-html {
-    font-size: 100%;
-}
+@import "bootstrap/functions";
+@import "bootstrap/variables";
+
+{% capture accent-color %}{% if site.accent-color %}{{ site.accent-color }}{% else %}$primary{% endif %}{% endcapture %}
+
+$theme-colors: (
+  "primary":    {{ accent-color }},
+  "secondary":  $secondary,
+  "success":    $success,
+  "info":       $info,
+  "warning":    $warning,
+  "danger":     $danger,
+  "light":      $light,
+  "dark":       $dark
+);
+
+@import "bootstrap/bootstrap";
 
 body {
-    color: {{ site.text-color | default: "#000000"}};
-    background-color: {{ site.page-color | default: "#e5e9f0" }};
     font-family: "Roboto", sans-serif;
     line-height: 1.5;
     font-size: 1.1rem;
@@ -17,10 +29,6 @@ body {
 
 p {
     margin-bottom: 1.3rem;
-}
-
-a {
-    color: {{ site.link-color | default: "#000000" }} !important;
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -54,15 +62,16 @@ h4 {
     font-weight: bold;
 }
 
-.navbar-custom {
-    font-weight: 400;
+.navbar * {
     text-decoration: none !important;
-    color: {{ site.accent-txt-color | default: "#e5e9f0" }} !important;
-    background-color: {{ site.accent-color | default: "#2e3440" }} !important;
 }
 
-img.navbar-custom {
+#navbar-logo {
     height: 2.5rem;
+}
+
+#navbar-title {
+    font-weight: 400;
 }
 
 #navbar-tagline {
@@ -71,15 +80,10 @@ img.navbar-custom {
     white-space: nowrap;
 }
 
-.dropdown-item:hover {
-    color: {{ site.accent-color | default: "#2e3440" }} !important;
-    background-color: {{ site.accent-txt-color | default: "#e5e9f0" }} !important;
-}
-
 #header-img {
     background: no-repeat center center;
     background-size: cover;
-    height: 20rem;
+    height: 25rem;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -89,26 +93,12 @@ img.navbar-custom {
     background: rgba(57, 57, 57, 0.7)
 }
 
-footer {
-    color: {{ site.accent-txt-color | default: "#e5e9f0" }} !important;
-    background-color: {{ site.accent-color | default: "#2e3440" }} !important;
-}
-
-.btn {
-    color: {{ site.accent-txt-color | default: "#e5e9f0" }} !important;
-    background-color: {{ site.accent-color | default: "#2e3440" }} !important;
-}
-
-.border {
-    border-color: {{ site.accent-color | default: "#2e3440" }} !important;
-}
-
 .border-hover {
     border-color: transparent !important;
 }
 
 .border-hover.selected {
-    border-color: {{ site.accent-color | default: "#2e3440" }} !important;
+    border-color: {{ accent-color }} !important;
 }
 
 #jump-top {

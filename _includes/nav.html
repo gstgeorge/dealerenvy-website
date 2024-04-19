@@ -1,20 +1,20 @@
 {% unless site.navbar-hide-title==true %}{% capture navbar-title %}{% if site.navbar-title %}{{ site.navbar-title }}{% elsif site.title %}{{ site.title }}{% endif %}{% endcapture %}{% capture navbar-tagline %}{% if site.navbar-tagline %}{{ site.navbar-tagline }}{% elsif site.tagline %}{{ site.tagline }}{% endif %}{% endcapture %}{% endunless %}
-<nav class="navbar navbar-expand-lg sticky-top navbar-custom ">
+<nav class="navbar navbar-expand-lg sticky-top bg-primary">
     <div class="container-fluid">
-        <a class="navbar-custom d-flex align-items-center" href="{{ '' | absolute_url }}">
+        <a class="d-flex align-items-center" href="{{ '' | absolute_url }}">
             {% if site.logo %}
-                <img class="navbar-custom my-0 me-3" alt="{{ site.title }} Logo" src="{{ site.logo | relative_url}}"/>
+                <img id="navbar-logo" class="me-3" alt="{{ site.title }} Logo" src="{{ site.logo | relative_url}}"/>
             {% endif %}
             {% if navbar-title %}
                 <div class="col">
-                    <p class="navbar-brand navbar-custom p-0 m-0">{{ navbar-title }}</p>
+                    <p id="navbar-title" class="navbar-brand text-bg-primary p-0 m-0">{{ navbar-title }}</p>
                     {% if navbar-tagline %}
-                        <p id="navbar-tagline" class="navbar-custom p-0 m-0">{{ navbar-tagline }}</p>
+                        <p id="navbar-tagline" class="text-bg-primary p-0 m-0">{{ navbar-tagline }}</p>
                     {% endif %}
                 </div>
             {% endif %}
         </a>
-        <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -22,20 +22,20 @@
                 {% for link in site.navbar-links %}
                     {% if link[1].first %}
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle navbar-custom" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <a class="nav-link dropdown-toggle text-bg-primary" href="#" role="button" data-bs-toggle="dropdown">
                                 {{ link[0] }}
                             </a>
-                            <ul class="dropdown-menu navbar-custom">
+                            <ul class="dropdown-menu bg-primary">
                                 {% for child in link[1] %}
                                     {% for sublink in child %}
-                                        <li><a class="dropdown-item navbar-custom" href="{{ sublink[1] }}">{{ sublink[0] }}</a></li>
+                                        <li><a class="dropdown-item text-bg-primary" href="{{ sublink[1] }}">{{ sublink[0] }}</a></li>
                                     {% endfor %}
                                 {% endfor %}
                             </ul>
                         </li>
                     {% else %}
                         <li class="nav-item">
-                            <a class="nav-link navbar-custom" href="{{ link[1] }}">{{ link[0] }}</a>
+                            <a class="nav-link text-bg-primary" href="{{ link[1] }}">{{ link[0] }}</a>
                         </li>
                     {% endif %}
                 {% endfor %}
