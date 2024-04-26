@@ -8,7 +8,7 @@ layout: null
     <div class="wrapper d-flex flex-column min-vh-100 p-0">
         {% include nav.html %}
         {% include header.html %}
-        <div class="container flex-fill">
+        <div class="flex-fill">
             {% if page.lightbox==true %}{% include lightbox.html %}{% endif %}
             {% if page.jumptop==true %}{% include jumptop.html %}{% endif %}
             {{ content }}

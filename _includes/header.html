@@ -1,20 +1,15 @@
+{% if page.hero.show==true %}
+<!-- Begin Hero -->
 <header>
-    {% if page.header.img %}
-        <div id="header-img" class="d-flex mb-4" style="background-image: url('{{page.header.img}}');">
-            {% unless page.header.hide-txt==true %}
-                <div id="header-img-overlay" class="d-flex flex-column flex-fill justify-content-center align-items-center text-center" {% if page.header.txt-color %}style="color: {{ page.header.txt-color }};"{% endif %}>
-                    {% if page.header.title-img %}<img src="{{ page.header.title-img }}" class="img-fluid mb-3" style="max-height: 60%; max-width:80%">
-                    {% elsif page.title %}<h1 class="xl">{{ page.title }}</h1>{% endif %}
-                    {% if page.subtitle %}<h2 class="mb-3">{{ page.subtitle }}</h2>{% endif %}
-                </div>
+    <div id="hero" class="d-flex" {% if page.hero.cover-img %}style="background-image: url('{{ page.hero.cover-img }}');"{% endif %}>
+            {% unless page.hero.hide-txt==true %}
+            <div {% if page.hero.cover-img %}id="hero-overlay"{% endif %} class="d-flex flex-column flex-fill justify-content-center align-items-center text-center" {% if page.hero.txt-color %}style="color: {{ page.hero.txt-color }};"{% endif %}>
+                {% if page.hero.title-img %}<img src="{{ page.hero.title-img }}" class="img-fluid mb-3" style="max-height: 50%; max-width:75%">
+                {% elsif page.title %}<h1 class="display-2 fw-semibold">{{ page.title }}</h1>{% endif %}
+                {% if page.subtitle %}<h2 class="display-6 fw-medium mb-3">{{ page.subtitle }}</h2>{% endif %}
+            </div>
             {% endunless %}
         </div>
-    {% else %}
-        {% unless page.header.hide-txt==true %}
-            <div class="text-center my-5" {% if page.header.txt-color %}style="color: {{ page.header.txt-color }};"{% endif %}>
-                {% if page.title %}<h1 class="xl">{{ page.title }}</h1>{% endif %}
-                {% if page.subtitle %}<h2>{{ page.subtitle }}</h2>{% endif %}
-            </div>
-        {% endunless %}
-    {% endif %}
 </header>
+<!-- End Hero -->
+{% endif %}

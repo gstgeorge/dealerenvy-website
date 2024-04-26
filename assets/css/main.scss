@@ -18,48 +18,36 @@ $theme-colors: (
   "dark":       $dark
 );
 
+$spacers: (
+  0: 0,
+  1: $spacer * .25,
+  2: $spacer * .5,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 3,
+  6: $spacer * 5,
+  7: $spacer * 7.5,
+  8: $spacer * 10,
+  9: $spacer * 15
+);
+
+$display-font-sizes: (
+  1: 10rem,
+  2: 5rem,
+  3: 4rem,
+  4: 3.5rem,
+  5: 3rem,
+  6: 2.5rem
+);
+
 @import "bootstrap/bootstrap";
 
-body {
-    font-family: "Roboto", sans-serif;
-    line-height: 1.5;
-    font-size: 1.1rem;
-    font-weight: 300;
+h1,h2,h3,h4,h5,h6 {
+    margin-bottom: 2.2rem;
 }
 
 p {
-    margin-bottom: 1.3rem;
-}
-
-h1,h2,h3,h4,h5,h6 {
-    margin-bottom: 2rem;
-    font-weight: 400;
-}
-
-h1 {
-    font-size: 2.25rem;
-}
-
-h2 {
-    font-size: 2rem;
-}
-
-h3 {
-    font-size: 1.8rem;
-}
-
-h4 {
-    font-size: 1.6rem;
-}
-
-.xl {
-    font-size: 4rem;
-    font-weight: bold;
-}
-
-.xxl {
-    font-size: 10rem;;
-    font-weight: bold;
+    margin-bottom: 1.6rem;
 }
 
 .navbar * {
@@ -75,21 +63,20 @@ h4 {
 }
 
 #navbar-tagline {
-    font-style: italic;
-    font-size: 0.75rem;
+    font-size: 0.8rem;
     white-space: nowrap;
 }
 
-#header-img {
+#hero {
     background: no-repeat center center;
     background-size: cover;
-    height: 25rem;
+    height: 30rem;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
 }
 
-#header-img-overlay {
+#hero-overlay {
     background: rgba(57, 57, 57, 0.7)
 }
 

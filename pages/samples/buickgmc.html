@@ -3,12 +3,15 @@ permalink: /samples/buickgmc
 
 title: Buick / GMC
 
-header:
-    img: /assets/images/samples/buickgmc/header_buick.png
+hero:
+    show: true
+    cover-img: /assets/images/samples/buickgmc/header_buick.png
     txt-color: "#ffffff"
 
 lightbox: true
 jumptop: true
 ---
-{% include gallery.html gallery="buickgmc_overlays" floating=true %}
-{% include gallery.html gallery="buickgmc_custimgs" floating=true %}
+<div class="container">
+    {% include gallery.html gallery="buickgmc_overlays" floating=true %}
+    {% include gallery.html gallery="buickgmc_custimgs" floating=true %}
+</div>
