@@ -10,6 +10,8 @@ samples:
       link: /samples/nissan
     - path: /assets/images/samples/mfg_buickgmc.png
       link: /samples/buickgmc
+    - path: /assets/images/samples/mfg_cadillac.png
+      link: /samples/cadillac
     - path: /assets/images/samples/mfg_honda.png
       link: /samples/honda
     - path: /assets/images/samples/mfg_toyota.png
@@ -62,6 +64,34 @@ buickgmc_custimgs:
       path: /assets/images/samples/buickgmc/buickgmc_placeholder_buick.png
     - title: New GMC Placeholder
       path: /assets/images/samples/buickgmc/buickgmc_placeholder_gmc.png
+
+cadillac_overlays:
+  title: Overlays
+  content:
+    - title: Default
+      path: /assets/images/samples/cadillac/cadillac_overlay_default.png
+    - title: CarFax 1-Owner
+      path: /assets/images/samples/cadillac/cadillac_overlay_1owner.png
+    - title: CPO
+      path: /assets/images/samples/cadillac/cadillac_overlay_cpo.png
+    - title: Incentive Ad
+      path: /assets/images/samples/cadillac/cadillac_overlay_ad.png
+    - title: Electric
+      path: /assets/images/samples/cadillac/cadillac_overlay_electric.png
+    - title: Hybrid
+      path: /assets/images/samples/cadillac/cadillac_overlay_hybrid.png
+    - title: Gas Saver
+      path: /assets/images/samples/cadillac/cadillac_overlay_gassaver.png
+
+cadillac_custimgs:
+  title: Custom Images
+  content:
+    - title: Location Map
+      path: /assets/images/samples/cadillac/cadillac_custimg_map.png
+    - title: Placeholder Default
+      path: /assets/images/samples/cadillac/cadillac_placeholder_default.png
+    - title: Placeholder CPO
+      path: /assets/images/samples/cadillac/cadillac_placeholder_cpo.png
 
 cdjr_overlays:
   title: Overlays
