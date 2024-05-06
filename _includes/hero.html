@@ -1,0 +1,15 @@
+{% if page.hero.show==true %}
+<!-- Begin Hero -->
+<header>
+    <div id="hero" class="d-flex" {% if page.hero.cover-img %}style="background-image: url('{{ page.hero.cover-img }}');"{% endif %}>
+            {% unless page.hero.hide-txt==true %}
+            <div {% if page.hero.cover-img %}id="hero-overlay"{% endif %} class="d-flex flex-column flex-fill justify-content-center align-items-center text-center" {% if page.hero.txt-color %}style="color: {{ page.hero.txt-color }};"{% endif %}>
+                {% if page.hero.title-img %}<img src="{{ page.hero.title-img }}" class="img-fluid px-4 mb-3" style="max-height: 50%; max-width:75%">
+                {% elsif page.title %}<h1 class="display-2 fw-semibold px-4">{{ page.title }}</h1>{% endif %}
+                {% if page.subtitle %}<h2 class="display-6 fw-medium px-4 mb-3">{{ page.subtitle }}</h2>{% endif %}
+            </div>
+            {% endunless %}
+        </div>
+</header>
+<!-- End Hero -->
+{% endif %}
