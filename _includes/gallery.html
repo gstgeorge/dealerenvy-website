@@ -1,13 +1,15 @@
 <!--Begin Gallery -->
-<div class="row justify-content-center text-center rounded {% if include.floating==true %}shadow-lg{% endif %} p-5 my-5">
-    {% if site.data.gallery[include.gallery].title %}<h1>{{ site.data.gallery[include.gallery].title }}</h1>{% endif %}
-    {% for image in site.data.gallery[include.gallery].content %}
-        <div class="col-md-6 col-xl-4 col-xxl-3 mb-5">
-            {% if image.title %}<p>{{ image.title }}</p>{% endif %}
+<div class="container py-6">
+    {% if site.data.gallery[include.gallery].title %}<h1 class="fw-light pb-2 border-bottom">{{ site.data.gallery[include.gallery].title }}</h1>{% endif %}
+    <div class="row row-cols-1 {% if include.compact==true %}row-cols-sm-2 row-cols-md-3 row-cols-xl-4{% else %}row-cols-md-2 row-cols-xl-3{% endif %} g-5">
+        {% for image in site.data.gallery[include.gallery].content %}
+        <div class="col">
+            {% if image.caption %}<p class="fs-5 mb-2">{{ image.caption }}</p>{% endif %}
             <a {% unless page.lightbox==true %}{% if image.link %}href="{{ image.link }}"{% endif %}{% endunless %}>
-                <img src="{{ image.path }}" alt="{{ image.title }}" class="gallery-item {% if include.borderhover==true %}border border-hover border-primary border-3{% endif %} img-fluid shadow-lg {% if include.rounded==true %}rounded-4{% endif %} centered">
+                <img src="{{ image.path }}" alt="{{ image.caption }}" class="gallery-item border border-2 {% if include.borderhover==true %}border-hover{% endif %} img-fluid shadow-lg {% if include.rounded==true %}rounded-4{% endif %} centered">
             </a>
         </div>
-    {% endfor %}
+        {% endfor %}
+    </div>
 </div>
 <!-- End Gallery -->
