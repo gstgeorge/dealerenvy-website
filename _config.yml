@@ -60,6 +60,7 @@ navbar-links:
     - Dynamic Overlays: "/services#overlays"
     - Equipped Option Tiles: "/services#tiles"
     - Custom Images: "/services#custimgs"
+    - Background Replacement: "/services#backgrounding"
     - Videos: "/services#videos"
     - 360 Spins: "/services#360spins"
     - SiriusXM Radio Refresh: "/services#sxm"
