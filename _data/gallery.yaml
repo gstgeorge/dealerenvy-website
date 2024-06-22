@@ -26,7 +26,7 @@ samples:
       link: /samples/mitsubishi
 
 buickgmc_overlays:
-  title: Overlays
+  title: Smart Overlays
   content:
     - caption: Default
       path: /assets/images/samples/buickgmc/buickgmc_overlay_default.png
@@ -50,7 +50,7 @@ buickgmc_overlays:
       path: /assets/images/samples/buickgmc/buickgmc_overlay_gassaver.png
 
 buickgmc_custimgs:
-  title: Custom Images
+  title: Billboards
   content:
     - caption: Location Map
       path: /assets/images/samples/buickgmc/buickgmc_custimg_map.png
@@ -68,7 +68,7 @@ buickgmc_custimgs:
       path: /assets/images/samples/buickgmc/buickgmc_placeholder_gmc.png
 
 cadillac_overlays:
-  title: Overlays
+  title: Smart Overlays
   content:
     - caption: Default
       path: /assets/images/samples/cadillac/cadillac_overlay_default.png
@@ -86,7 +86,7 @@ cadillac_overlays:
       path: /assets/images/samples/cadillac/cadillac_overlay_gassaver.png
 
 cadillac_custimgs:
-  title: Custom Images
+  title: Billboards
   content:
     - caption: Location Map
       path: /assets/images/samples/cadillac/cadillac_custimg_map.png
@@ -100,7 +100,7 @@ cadillac_custimgs:
       path: /assets/images/samples/cadillac/cadillac_placeholder_new.png
 
 cdjr_overlays:
-  title: Overlays
+  title: Smart Overlays
   content:
     - caption: Default
       path: /assets/images/samples/cdjr/cdjr_overlay_default.png
@@ -130,7 +130,7 @@ cdjr_overlays:
       path: /assets/images/samples/cdjr/cdjr_overlay_gassaver.png
 
 cdjr_custimgs:
-  title: Custom Images
+  title: Billboards
   content:
     - caption: Location Map
       path: /assets/images/samples/cdjr/cdjr_custimg_map.png
@@ -144,7 +144,7 @@ cdjr_custimgs:
       path: /assets/images/samples/cdjr/cdjr_placeholder_cpo.png
 
 chevy_overlays:
-  title: Overlays
+  title: Smart Overlays
   content:
     - caption: Default
       path: /assets/images/samples/chevy/chevy_overlay_default.png
@@ -162,7 +162,7 @@ chevy_overlays:
       path: /assets/images/samples/chevy/chevy_overlay_gassaver.png
 
 chevy_custimgs:
-  title: Custom Images
+  title: Billboards
   content:
     - caption: Location Map
       path: /assets/images/samples/chevy/chevy_custimg_map.png
@@ -174,7 +174,7 @@ chevy_custimgs:
       path: /assets/images/samples/chevy/chevy_placeholder_cpo.png
 
 ford_overlays:
-  title: Overlays
+  title: Smart Overlays
   content:
     - caption: Default
       path: /assets/images/samples/ford/ford_overlay_default.png
@@ -200,7 +200,7 @@ ford_overlays:
       path: /assets/images/samples/ford/ford_overlay_gassaver.png
 
 ford_custimgs:
-  title: Custom Images
+  title: Billboards
   content:
     - caption: Location Map
       path: /assets/images/samples/ford/ford_custimg_map.png
@@ -214,7 +214,7 @@ ford_custimgs:
       path: /assets/images/samples/ford/ford_placeholder_cpo_gold.png
 
 honda_overlays:
-  title: Overlays
+  title: Smart Overlays
   content:
     - caption: Default
       path: /assets/images/samples/honda/honda_overlay_default.png
@@ -232,7 +232,7 @@ honda_overlays:
       path: /assets/images/samples/honda/honda_overlay_gassaver.png
 
 honda_custimgs:
-  title: Custom Images
+  title: Billboards
   content:
     - caption: Location Map
       path: /assets/images/samples/honda/honda_custimg_map.png
@@ -244,7 +244,7 @@ honda_custimgs:
       path: /assets/images/samples/honda/honda_placeholder_cpo.png
 
 hyundai_overlays:
-  title: Overlays
+  title: Smart Overlays
   content:
     - caption: Default
       path: /assets/images/samples/hyundai/hyundai_overlay_default.png
@@ -262,7 +262,7 @@ hyundai_overlays:
       path: /assets/images/samples/hyundai/hyundai_overlay_gassaver.png
 
 hyundai_custimgs:
-  title: Custom Images
+  title: Billboards
   content:
     - caption: Location Map
       path: /assets/images/samples/hyundai/hyundai_custimg_map.png
@@ -274,7 +274,7 @@ hyundai_custimgs:
       path: /assets/images/samples/hyundai/hyundai_placeholder_cpo.png
 
 mazda_overlays:
-  title: Overlays
+  title: Smart Overlays
   content:
     - caption: Default
       path: /assets/images/samples/mazda/mazda_overlay_default.png
@@ -284,7 +284,7 @@ mazda_overlays:
       path: /assets/images/samples/mazda/mazda_overlay_cpo.png
 
 mazda_custimgs:
-  title: Custom Images
+  title: Billboards
   content:
     - caption: Location Map
       path: /assets/images/samples/mazda/mazda_custimg_map.png
@@ -296,7 +296,7 @@ mazda_custimgs:
       path: /assets/images/samples/mazda/mazda_placeholder_cpo.png
 
 mitsubishi_overlays:
-  title: Overlays
+  title: Smart Overlays
   content:
     - caption: Default
       path: /assets/images/samples/mitsubishi/mitsubishi_overlay_default.png
@@ -316,7 +316,7 @@ mitsubishi_overlays:
       path: /assets/images/samples/mitsubishi/mitsubishi_overlay_gassaver.png
 
 mitsubishi_custimgs:
-  title: Custom Images
+  title: Billboards
   content:
     - caption: Location Map
       path: /assets/images/samples/mitsubishi/mitsubishi_custimg_map.png
@@ -328,7 +328,7 @@ mitsubishi_custimgs:
       path: /assets/images/samples/mitsubishi/mitsubishi_placeholder_cpo.png
 
 nissan_overlays:
-  title: Overlays
+  title: Smart Overlays
   content:
     - caption: Default
       path: /assets/images/samples/nissan/nissan_overlay_default.png
@@ -346,7 +346,7 @@ nissan_overlays:
       path: /assets/images/samples/nissan/nissan_overlay_gassaver.png
 
 nissan_custimgs:
-  title: Custom Images
+  title: Billboards
   content:
     - caption: Location Map
       path: /assets/images/samples/nissan/nissan_custimg_map.png
@@ -360,7 +360,7 @@ nissan_custimgs:
       path: /assets/images/samples/nissan/nissan_placeholder_cpo.png
 
 subaru_overlays:
-  title: Overlays
+  title: Smart Overlays
   content:
     - caption: Default
       path: /assets/images/samples/subaru/subaru_overlay_default.png
@@ -378,7 +378,7 @@ subaru_overlays:
       path: /assets/images/samples/subaru/subaru_overlay_gassaver.png
 
 subaru_custimgs:
-  title: Custom Images
+  title: Billboards
   content:
     - caption: Location Map
       path: /assets/images/samples/subaru/subaru_custimg_map.png
@@ -390,7 +390,7 @@ subaru_custimgs:
       path: /assets/images/samples/subaru/subaru_placeholder_cpo.png
 
 toyota_overlays:
-  title: Overlays
+  title: Smart Overlays
   content:
     - caption: Default
       path: /assets/images/samples/toyota/toyota_overlay_default.png
@@ -408,7 +408,7 @@ toyota_overlays:
       path: /assets/images/samples/toyota/toyota_overlay_gassaver.png
 
 toyota_custimgs:
-  title: Custom Images
+  title: Billboards
   content:
     - caption: Location Map
       path: /assets/images/samples/toyota/toyota_custimg_map.png

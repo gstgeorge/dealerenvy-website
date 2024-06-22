@@ -57,9 +57,9 @@ navbar-links:
   Home: "/"
   Services:
     - Photos: "/services#photos"
-    - Dynamic Overlays: "/services#overlays"
+    - Smart Overlays: "/services#overlays"
     - Equipped Option Tiles: "/services#tiles"
-    - Custom Images: "/services#custimgs"
+    - Billboards: "/services#custimgs"
     - Background Replacement: "/services#backgrounding"
     - Videos: "/services#videos"
     - 360 Spins: "/services#360spins"
