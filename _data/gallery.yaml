@@ -54,6 +54,8 @@ buickgmc_custimgs:
   content:
     - caption: Location Map
       path: /assets/images/samples/buickgmc/buickgmc_custimg_map.png
+    - caption: Lojack
+      path: /assets/images/samples/custimg_lojack.png
     - caption: Default Placeholder
       path: /assets/images/samples/buickgmc/buickgmc_placeholder_default.png
     - caption: CPO Buick Placeholder
@@ -88,10 +90,14 @@ cadillac_custimgs:
   content:
     - caption: Location Map
       path: /assets/images/samples/cadillac/cadillac_custimg_map.png
-    - caption: Placeholder Default
-      path: /assets/images/samples/cadillac/cadillac_placeholder_default.png
+    - caption: Lojack
+      path: /assets/images/samples/custimg_lojack.png
+    - caption: Placeholder Pre-Owned
+      path: /assets/images/samples/cadillac/cadillac_placeholder_used.png
     - caption: Placeholder CPO
       path: /assets/images/samples/cadillac/cadillac_placeholder_cpo.png
+    - caption: Placeholder New
+      path: /assets/images/samples/cadillac/cadillac_placeholder_new.png
 
 cdjr_overlays:
   title: Overlays
@@ -128,6 +134,10 @@ cdjr_custimgs:
   content:
     - caption: Location Map
       path: /assets/images/samples/cdjr/cdjr_custimg_map.png
+    - caption: Certified Pre-Owned
+      path: /assets/images/samples/cdjr/cdjr_custimg_cpo.png
+    - caption: Lojack
+      path: /assets/images/samples/custimg_lojack.png
     - caption: Placeholder Default
       path: /assets/images/samples/cdjr/cdjr_placeholder_default.png
     - caption: Placeholder CPO
@@ -156,6 +166,8 @@ chevy_custimgs:
   content:
     - caption: Location Map
       path: /assets/images/samples/chevy/chevy_custimg_map.png
+    - caption: Lojack
+      path: /assets/images/samples/custimg_lojack.png
     - caption: Placeholder Default
       path: /assets/images/samples/chevy/chevy_placeholder_default.png
     - caption: Placeholder CPO
@@ -192,6 +204,8 @@ ford_custimgs:
   content:
     - caption: Location Map
       path: /assets/images/samples/ford/ford_custimg_map.png
+    - caption: Lojack
+      path: /assets/images/samples/custimg_lojack.png
     - caption: Placeholder Default
       path: /assets/images/samples/ford/ford_placeholder_default.png
     - caption: Placeholder Blue Certified
@@ -222,6 +236,8 @@ honda_custimgs:
   content:
     - caption: Location Map
       path: /assets/images/samples/honda/honda_custimg_map.png
+    - caption: Lojack
+      path: /assets/images/samples/custimg_lojack.png
     - caption: Placeholder Default
       path: /assets/images/samples/honda/honda_placeholder_default.png
     - caption: Placeholder CPO
@@ -250,6 +266,8 @@ hyundai_custimgs:
   content:
     - caption: Location Map
       path: /assets/images/samples/hyundai/hyundai_custimg_map.png
+    - caption: Lojack
+      path: /assets/images/samples/custimg_lojack.png
     - caption: Placeholder Default
       path: /assets/images/samples/hyundai/hyundai_placeholder_default.png
     - caption: Placeholder CPO
@@ -270,6 +288,8 @@ mazda_custimgs:
   content:
     - caption: Location Map
       path: /assets/images/samples/mazda/mazda_custimg_map.png
+    - caption: Lojack
+      path: /assets/images/samples/custimg_lojack.png
     - caption: Default Placeholder
       path: /assets/images/samples/mazda/mazda_placeholder_default.png
     - caption: CPO Placeholder
@@ -300,6 +320,8 @@ mitsubishi_custimgs:
   content:
     - caption: Location Map
       path: /assets/images/samples/mitsubishi/mitsubishi_custimg_map.png
+    - caption: Lojack
+      path: /assets/images/samples/custimg_lojack.png
     - caption: Placeholder Default
       path: /assets/images/samples/mitsubishi/mitsubishi_placeholder_default.png
     - caption: Placeholder CPO
@@ -330,6 +352,8 @@ nissan_custimgs:
       path: /assets/images/samples/nissan/nissan_custimg_map.png
     - caption: CPO Warranty Benefits
       path: /assets/images/samples/nissan/nissan_custimg_cpo.png
+    - caption: Lojack
+      path: /assets/images/samples/custimg_lojack.png
     - caption: Placeholder Default
       path: /assets/images/samples/nissan/nissan_placeholder_default.png
     - caption: Placeholder CPO
@@ -358,6 +382,8 @@ subaru_custimgs:
   content:
     - caption: Location Map
       path: /assets/images/samples/subaru/subaru_custimg_map.png
+    - caption: Lojack
+      path: /assets/images/samples/custimg_lojack.png
     - caption: Placeholder Default
       path: /assets/images/samples/subaru/subaru_placeholder_default.png
     - caption: Placeholder CPO
@@ -386,6 +412,8 @@ toyota_custimgs:
   content:
     - caption: Location Map
       path: /assets/images/samples/toyota/toyota_custimg_map.png
+    - caption: Lojack
+      path: /assets/images/samples/custimg_lojack.png
     - caption: Placeholder Default
       path: /assets/images/samples/toyota/toyota_placeholder_default.png
     - caption: Placeholder CPO
