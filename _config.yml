@@ -28,7 +28,10 @@ favicon: /assets/images/ds_logo_square.png
 
 # Accent Color
 #   Color used for navbar, footer, buttons, etc.
-accent-color: "#004d99"
+accent-color: "#005195"
+
+# Background color
+background-color: "#f0f0f0"
 
 # Google Analytics Tag
 gtag: G-R7H32259Z2
@@ -59,7 +62,7 @@ navbar-links:
     - Photos: "/services#photos"
     - Smart Overlays: "/services#overlays"
     - Equipped Option Tiles: "/services#tiles"
-    - Billboards: "/services#custimgs"
+    - Billboards: "/services#billboards"
     - Background Replacement: "/services#backgrounding"
     - Videos: "/services#videos"
     - 360 Spins: "/services#360spins"

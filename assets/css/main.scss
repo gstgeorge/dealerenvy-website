@@ -6,6 +6,7 @@ layout: null
 @import "bootstrap/variables";
 
 {% capture accent-color %}{% if site.accent-color %}{{ site.accent-color }}{% else %}$primary{% endif %}{% endcapture %}
+{% capture background-color %}{% if site.background-color %}{{ site.background-color }}{% else %}#ffffff{% endif %}{% endcapture %}
 
 $theme-colors: (
   "primary":    {{ accent-color }},
@@ -44,8 +45,12 @@ $display-font-sizes: (
 
 @import "bootstrap/bootstrap";
 
+body {
+    background-color: {{ background-color }};
+}
+
 h1,h2,h3,h4,h5,h6 {
-    margin-bottom: 2.2rem;
+    margin-bottom: 2rem;
 }
 
 p {
