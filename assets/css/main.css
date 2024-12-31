@@ -2,48 +2,23 @@
 layout: null
 ---
 
-@import "bootstrap/functions";
-@import "bootstrap/variables";
-
 {% capture accent-color %}{% if site.accent-color %}{{ site.accent-color }}{% else %}$primary{% endif %}{% endcapture %}
 {% capture background-color %}{% if site.background-color %}{{ site.background-color }}{% else %}#ffffff{% endif %}{% endcapture %}
 
-$theme-colors: (
-  "primary":    {{ accent-color }},
-  "secondary":  $secondary,
-  "success":    $success,
-  "info":       $info,
-  "warning":    $warning,
-  "danger":     $danger,
-  "light":      $light,
-  "dark":       $dark
-);
+.bg-primary, .text-bg-primary, .btn-primary {
+    color: #fff;
+    background-color: {{ accent-color }} !important;
+}
 
-$link-color: {{ accent-color }};
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem {{ accent-color }};
+}
 
-$spacers: (
-  0: 0,
-  1: $spacer * .25,
-  2: $spacer * .5,
-  3: $spacer,
-  4: $spacer * 1.5,
-  5: $spacer * 3,
-  6: $spacer * 5,
-  7: $spacer * 7.5,
-  8: $spacer * 10,
-  9: $spacer * 15
-);
-
-$display-font-sizes: (
-  1: 10rem,
-  2: 5rem,
-  3: 4rem,
-  4: 3.5rem,
-  5: 3rem,
-  6: 2.5rem
-);
-
-@import "bootstrap/bootstrap";
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: #fff;
+    background-color: {{ accent-color }};
+    border-color: {{ accent-color }};
+}
 
 body {
     background-color: {{ background-color }};
@@ -59,6 +34,11 @@ p {
 
 .navbar * {
     text-decoration: none !important;
+}
+
+.dropdown-item:hover {
+    color: #fff;
+    background-color: {{ accent-color }} !important;
 }
 
 #navbar-logo {
