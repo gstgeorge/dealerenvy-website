@@ -9,7 +9,7 @@
 
 # Site name
 #   Appears in navbar and titlebar
-title: Dealer Solutions
+title: Dealer Envy
 
 # Locale
 locale: en_US
@@ -20,11 +20,11 @@ tagline: On-the-lot services that drive your sales
 
 # Author
 #   Causes a footer to appear at the bottom of each page
-author: Dealer Solutions Corp
+author: Dealer Envy Inc
 
 # Favicon
 #   Path to file (png/ico) to use as site's favicon
-favicon: /assets/images/ds_logo_square.png
+favicon: /assets/images/logo-square.png
 
 # Accent Color
 #   Color used for navbar, footer, buttons, etc.
@@ -34,7 +34,7 @@ accent-color: "#005195"
 background-color: "#f0f0f0"
 
 # Google Analytics Tag
-gtag: G-R7H32259Z2
+gtag: G-PJ8QGKN9YZ
 
 
 ############
@@ -44,16 +44,16 @@ gtag: G-R7H32259Z2
 # Site logo
 #   Appears in the leftmost position of the navbar
 #   It is recommended to use a square image
-logo: /assets/images/ds_logo_square.png
+logo: /assets/images/logo-square.png
 
 # Don't display the site title & tagline in the navbar
-navbar-hide-title: #true
+#navbar-hide-title: true
 
 # Override the title shown in the navbar
-navbar-title:
+#navbar-title:
 
 # Override the tagline shown in the navbar
-navbar-tagline:
+#navbar-tagline:
 
 # Links to display in the navbar
 navbar-links:
@@ -73,10 +73,10 @@ navbar-links:
   Contact: "/contact"
   Portal: "https://admin.unitsinventory.com/index.php/reseller/dealer"
 
-  # Link Label: "https://Link.com/"
+  # Link Label: "https://link.com/"
   # Section Label:
-  #   - Link Label: "https://Link.com/"
-  #   - Link Label: "https://Link.com/"  
+  #   - Link Label: "https://link.com/"
+  #   - Link Label: "https://link.com/"  
 
 
 #######################

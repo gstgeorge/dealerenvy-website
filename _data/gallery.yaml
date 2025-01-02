@@ -42,6 +42,8 @@ buickgmc_overlays:
       path: /assets/images/samples/buickgmc/buickgmc_overlay_buick.png
     - caption: New GMC
       path: /assets/images/samples/buickgmc/buickgmc_overlay_gmc.png
+    - caption: New Hummer
+      path: /assets/images/samples/buickgmc/buickgmc_overlay_hummer.png
     - caption: Electric
       path: /assets/images/samples/buickgmc/buickgmc_overlay_electric.png
     - caption: Hybrid
@@ -66,6 +68,8 @@ buickgmc_custimgs:
       path: /assets/images/samples/buickgmc/buickgmc_placeholder_buick.png
     - caption: New GMC Placeholder
       path: /assets/images/samples/buickgmc/buickgmc_placeholder_gmc.png
+    - caption: New Hummer Placeholder
+      path: /assets/images/samples/buickgmc/buickgmc_placeholder_hummer.png      
 
 cadillac_overlays:
   title: Smart Overlays
@@ -74,8 +78,6 @@ cadillac_overlays:
       path: /assets/images/samples/cadillac/cadillac_overlay_default.png
     - caption: CarFax 1-Owner
       path: /assets/images/samples/cadillac/cadillac_overlay_1owner.png
-    - caption: CPO
-      path: /assets/images/samples/cadillac/cadillac_overlay_cpo.png
     - caption: Ad - Financial Incentive
       path: /assets/images/samples/cadillac/cadillac_overlay_ad.png
     - caption: Electric
