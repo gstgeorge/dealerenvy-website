@@ -25,10 +25,10 @@
                             <a class="nav-link dropdown-toggle text-bg-primary" href="#" role="button" data-bs-toggle="dropdown">
                                 {{ link[0] }}
                             </a>
-                            <ul class="dropdown-menu bg-primary">
+                            <ul class="dropdown-menu">
                                 {% for child in link[1] %}
                                     {% for sublink in child %}
-                                        <li><a class="dropdown-item text-bg-primary" href="{{ sublink[1] }}">{{ sublink[0] }}</a></li>
+                                        <li><a class="dropdown-item" href="{{ sublink[1] }}">{{ sublink[0] }}</a></li>
                                     {% endfor %}
                                 {% endfor %}
                             </ul>
